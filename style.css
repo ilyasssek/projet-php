@@ -1,0 +1,75 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #060000; /* Couleur de fond légère */
+    color: #030000; /* Couleur du texte */
+}
+
+/* Barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff; /* Bleu clair */
+    color: #fffcfc; /* Texte blanc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.navbar a {
+    color:#fffcfc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #16cdfb; /* Jaune clair au survol */
+}
+
+/* Contenu principal */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fffcfc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Bleu */
+}
+
+.container p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Liens en bas de page */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #007bff;
+    color:#fffcfc;
+}
+
+.footer a {
+    color: #16cdfb;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.small-text {
+    font-size: 12px; /* Ajustez la taille de la police selon vos besoins */
+    color: #555; /* Couleur plus sombre pour améliorer la lisibilité */
+}
+
